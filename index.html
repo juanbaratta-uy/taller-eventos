@@ -10,7 +10,7 @@
 <body>
     
 <div id="div">
-   <button onclick="window.alert('Hola!')">Saludar</button>
+   <button onclick="event.stopPropagation(); window.alert('Hola!')">Saludar</button>
 </div>
 
 </body>
